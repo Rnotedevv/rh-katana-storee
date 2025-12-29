@@ -6,6 +6,9 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import ProductGallery from "@/components/ProductGallery";
 import { supabase } from "@/lib/supabase";
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 
 type Params = { slug: string };
 
