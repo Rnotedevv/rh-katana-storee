@@ -3,6 +3,9 @@ import HeroSlider from "@/components/HeroSlider";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { supabase } from "@/lib/supabase";
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 
 type Product = {
   id: string;
